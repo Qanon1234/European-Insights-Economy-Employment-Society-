@@ -1,0 +1,16 @@
+# Eurostat API access
+requests
+
+# Data analysis
+pandas
+numpy
+
+# MySQL connectivity
+mysql-connector-python
+
+# Interactive notebooks
+jupyter
+
+# Dashboard and visualization
+dash
+plotly

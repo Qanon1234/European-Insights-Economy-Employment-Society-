@@ -221,3 +221,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local credentials and environment overrides
+.env.*
+!.env.example
+credentials.json
+credentials/
+secrets.json
+secrets/
+.my.cnf
+.mylogin.cnf
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
