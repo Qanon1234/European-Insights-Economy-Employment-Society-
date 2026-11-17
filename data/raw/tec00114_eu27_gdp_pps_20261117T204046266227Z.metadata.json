@@ -1,0 +1,1695 @@
+{
+  "dataset_id": "tec00114",
+  "dataset_title": "GDP per capita in PPS",
+  "dataset_url": "https://ec.europa.eu/eurostat/databrowser/view/tec00114/default/table?lang=en",
+  "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tec00114?format=JSON&lang=EN&freq=A&indic_ppp=VI_PPS_EU27_2020_HAB&ppp_cat18=GDP&sinceTimePeriod=2000&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE",
+  "retrieved_at_utc": "2026-11-17T20:40:46.266227+00:00",
+  "eurostat_updated": "2026-07-09T23:00:00+0200",
+  "indicator": "VI_PPS_EU27_2020_HAB",
+  "indicator_label": "Volume indices of real expenditure per capita (in PPS_EU27_2020=100)",
+  "reference": "EU27_2020 = 100 in each year; not a currency amount",
+  "country_codes": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE"
+  ],
+  "requested_start_year": 2000,
+  "returned_years": [
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "raw_file": "tec00114_eu27_gdp_pps_20261117T204046266227Z.json",
+  "sha256": "e2e649401de9f146e9b91436525858bc9cda98fbe8d1712c7023bbc70c77b77a",
+  "quality_check": {
+    "expected_country_year_cells": 702,
+    "missing_count": 378,
+    "missing_observations": [
+      {
+        "geo": "AT",
+        "year": "2000"
+      },
+      {
+        "geo": "AT",
+        "year": "2001"
+      },
+      {
+        "geo": "AT",
+        "year": "2002"
+      },
+      {
+        "geo": "AT",
+        "year": "2003"
+      },
+      {
+        "geo": "AT",
+        "year": "2004"
+      },
+      {
+        "geo": "AT",
+        "year": "2005"
+      },
+      {
+        "geo": "AT",
+        "year": "2006"
+      },
+      {
+        "geo": "AT",
+        "year": "2007"
+      },
+      {
+        "geo": "AT",
+        "year": "2008"
+      },
+      {
+        "geo": "AT",
+        "year": "2009"
+      },
+      {
+        "geo": "AT",
+        "year": "2010"
+      },
+      {
+        "geo": "AT",
+        "year": "2011"
+      },
+      {
+        "geo": "AT",
+        "year": "2012"
+      },
+      {
+        "geo": "AT",
+        "year": "2013"
+      },
+      {
+        "geo": "BE",
+        "year": "2000"
+      },
+      {
+        "geo": "BE",
+        "year": "2001"
+      },
+      {
+        "geo": "BE",
+        "year": "2002"
+      },
+      {
+        "geo": "BE",
+        "year": "2003"
+      },
+      {
+        "geo": "BE",
+        "year": "2004"
+      },
+      {
+        "geo": "BE",
+        "year": "2005"
+      },
+      {
+        "geo": "BE",
+        "year": "2006"
+      },
+      {
+        "geo": "BE",
+        "year": "2007"
+      },
+      {
+        "geo": "BE",
+        "year": "2008"
+      },
+      {
+        "geo": "BE",
+        "year": "2009"
+      },
+      {
+        "geo": "BE",
+        "year": "2010"
+      },
+      {
+        "geo": "BE",
+        "year": "2011"
+      },
+      {
+        "geo": "BE",
+        "year": "2012"
+      },
+      {
+        "geo": "BE",
+        "year": "2013"
+      },
+      {
+        "geo": "BG",
+        "year": "2000"
+      },
+      {
+        "geo": "BG",
+        "year": "2001"
+      },
+      {
+        "geo": "BG",
+        "year": "2002"
+      },
+      {
+        "geo": "BG",
+        "year": "2003"
+      },
+      {
+        "geo": "BG",
+        "year": "2004"
+      },
+      {
+        "geo": "BG",
+        "year": "2005"
+      },
+      {
+        "geo": "BG",
+        "year": "2006"
+      },
+      {
+        "geo": "BG",
+        "year": "2007"
+      },
+      {
+        "geo": "BG",
+        "year": "2008"
+      },
+      {
+        "geo": "BG",
+        "year": "2009"
+      },
+      {
+        "geo": "BG",
+        "year": "2010"
+      },
+      {
+        "geo": "BG",
+        "year": "2011"
+      },
+      {
+        "geo": "BG",
+        "year": "2012"
+      },
+      {
+        "geo": "BG",
+        "year": "2013"
+      },
+      {
+        "geo": "HR",
+        "year": "2000"
+      },
+      {
+        "geo": "HR",
+        "year": "2001"
+      },
+      {
+        "geo": "HR",
+        "year": "2002"
+      },
+      {
+        "geo": "HR",
+        "year": "2003"
+      },
+      {
+        "geo": "HR",
+        "year": "2004"
+      },
+      {
+        "geo": "HR",
+        "year": "2005"
+      },
+      {
+        "geo": "HR",
+        "year": "2006"
+      },
+      {
+        "geo": "HR",
+        "year": "2007"
+      },
+      {
+        "geo": "HR",
+        "year": "2008"
+      },
+      {
+        "geo": "HR",
+        "year": "2009"
+      },
+      {
+        "geo": "HR",
+        "year": "2010"
+      },
+      {
+        "geo": "HR",
+        "year": "2011"
+      },
+      {
+        "geo": "HR",
+        "year": "2012"
+      },
+      {
+        "geo": "HR",
+        "year": "2013"
+      },
+      {
+        "geo": "CY",
+        "year": "2000"
+      },
+      {
+        "geo": "CY",
+        "year": "2001"
+      },
+      {
+        "geo": "CY",
+        "year": "2002"
+      },
+      {
+        "geo": "CY",
+        "year": "2003"
+      },
+      {
+        "geo": "CY",
+        "year": "2004"
+      },
+      {
+        "geo": "CY",
+        "year": "2005"
+      },
+      {
+        "geo": "CY",
+        "year": "2006"
+      },
+      {
+        "geo": "CY",
+        "year": "2007"
+      },
+      {
+        "geo": "CY",
+        "year": "2008"
+      },
+      {
+        "geo": "CY",
+        "year": "2009"
+      },
+      {
+        "geo": "CY",
+        "year": "2010"
+      },
+      {
+        "geo": "CY",
+        "year": "2011"
+      },
+      {
+        "geo": "CY",
+        "year": "2012"
+      },
+      {
+        "geo": "CY",
+        "year": "2013"
+      },
+      {
+        "geo": "CZ",
+        "year": "2000"
+      },
+      {
+        "geo": "CZ",
+        "year": "2001"
+      },
+      {
+        "geo": "CZ",
+        "year": "2002"
+      },
+      {
+        "geo": "CZ",
+        "year": "2003"
+      },
+      {
+        "geo": "CZ",
+        "year": "2004"
+      },
+      {
+        "geo": "CZ",
+        "year": "2005"
+      },
+      {
+        "geo": "CZ",
+        "year": "2006"
+      },
+      {
+        "geo": "CZ",
+        "year": "2007"
+      },
+      {
+        "geo": "CZ",
+        "year": "2008"
+      },
+      {
+        "geo": "CZ",
+        "year": "2009"
+      },
+      {
+        "geo": "CZ",
+        "year": "2010"
+      },
+      {
+        "geo": "CZ",
+        "year": "2011"
+      },
+      {
+        "geo": "CZ",
+        "year": "2012"
+      },
+      {
+        "geo": "CZ",
+        "year": "2013"
+      },
+      {
+        "geo": "DK",
+        "year": "2000"
+      },
+      {
+        "geo": "DK",
+        "year": "2001"
+      },
+      {
+        "geo": "DK",
+        "year": "2002"
+      },
+      {
+        "geo": "DK",
+        "year": "2003"
+      },
+      {
+        "geo": "DK",
+        "year": "2004"
+      },
+      {
+        "geo": "DK",
+        "year": "2005"
+      },
+      {
+        "geo": "DK",
+        "year": "2006"
+      },
+      {
+        "geo": "DK",
+        "year": "2007"
+      },
+      {
+        "geo": "DK",
+        "year": "2008"
+      },
+      {
+        "geo": "DK",
+        "year": "2009"
+      },
+      {
+        "geo": "DK",
+        "year": "2010"
+      },
+      {
+        "geo": "DK",
+        "year": "2011"
+      },
+      {
+        "geo": "DK",
+        "year": "2012"
+      },
+      {
+        "geo": "DK",
+        "year": "2013"
+      },
+      {
+        "geo": "EE",
+        "year": "2000"
+      },
+      {
+        "geo": "EE",
+        "year": "2001"
+      },
+      {
+        "geo": "EE",
+        "year": "2002"
+      },
+      {
+        "geo": "EE",
+        "year": "2003"
+      },
+      {
+        "geo": "EE",
+        "year": "2004"
+      },
+      {
+        "geo": "EE",
+        "year": "2005"
+      },
+      {
+        "geo": "EE",
+        "year": "2006"
+      },
+      {
+        "geo": "EE",
+        "year": "2007"
+      },
+      {
+        "geo": "EE",
+        "year": "2008"
+      },
+      {
+        "geo": "EE",
+        "year": "2009"
+      },
+      {
+        "geo": "EE",
+        "year": "2010"
+      },
+      {
+        "geo": "EE",
+        "year": "2011"
+      },
+      {
+        "geo": "EE",
+        "year": "2012"
+      },
+      {
+        "geo": "EE",
+        "year": "2013"
+      },
+      {
+        "geo": "FI",
+        "year": "2000"
+      },
+      {
+        "geo": "FI",
+        "year": "2001"
+      },
+      {
+        "geo": "FI",
+        "year": "2002"
+      },
+      {
+        "geo": "FI",
+        "year": "2003"
+      },
+      {
+        "geo": "FI",
+        "year": "2004"
+      },
+      {
+        "geo": "FI",
+        "year": "2005"
+      },
+      {
+        "geo": "FI",
+        "year": "2006"
+      },
+      {
+        "geo": "FI",
+        "year": "2007"
+      },
+      {
+        "geo": "FI",
+        "year": "2008"
+      },
+      {
+        "geo": "FI",
+        "year": "2009"
+      },
+      {
+        "geo": "FI",
+        "year": "2010"
+      },
+      {
+        "geo": "FI",
+        "year": "2011"
+      },
+      {
+        "geo": "FI",
+        "year": "2012"
+      },
+      {
+        "geo": "FI",
+        "year": "2013"
+      },
+      {
+        "geo": "FR",
+        "year": "2000"
+      },
+      {
+        "geo": "FR",
+        "year": "2001"
+      },
+      {
+        "geo": "FR",
+        "year": "2002"
+      },
+      {
+        "geo": "FR",
+        "year": "2003"
+      },
+      {
+        "geo": "FR",
+        "year": "2004"
+      },
+      {
+        "geo": "FR",
+        "year": "2005"
+      },
+      {
+        "geo": "FR",
+        "year": "2006"
+      },
+      {
+        "geo": "FR",
+        "year": "2007"
+      },
+      {
+        "geo": "FR",
+        "year": "2008"
+      },
+      {
+        "geo": "FR",
+        "year": "2009"
+      },
+      {
+        "geo": "FR",
+        "year": "2010"
+      },
+      {
+        "geo": "FR",
+        "year": "2011"
+      },
+      {
+        "geo": "FR",
+        "year": "2012"
+      },
+      {
+        "geo": "FR",
+        "year": "2013"
+      },
+      {
+        "geo": "DE",
+        "year": "2000"
+      },
+      {
+        "geo": "DE",
+        "year": "2001"
+      },
+      {
+        "geo": "DE",
+        "year": "2002"
+      },
+      {
+        "geo": "DE",
+        "year": "2003"
+      },
+      {
+        "geo": "DE",
+        "year": "2004"
+      },
+      {
+        "geo": "DE",
+        "year": "2005"
+      },
+      {
+        "geo": "DE",
+        "year": "2006"
+      },
+      {
+        "geo": "DE",
+        "year": "2007"
+      },
+      {
+        "geo": "DE",
+        "year": "2008"
+      },
+      {
+        "geo": "DE",
+        "year": "2009"
+      },
+      {
+        "geo": "DE",
+        "year": "2010"
+      },
+      {
+        "geo": "DE",
+        "year": "2011"
+      },
+      {
+        "geo": "DE",
+        "year": "2012"
+      },
+      {
+        "geo": "DE",
+        "year": "2013"
+      },
+      {
+        "geo": "EL",
+        "year": "2000"
+      },
+      {
+        "geo": "EL",
+        "year": "2001"
+      },
+      {
+        "geo": "EL",
+        "year": "2002"
+      },
+      {
+        "geo": "EL",
+        "year": "2003"
+      },
+      {
+        "geo": "EL",
+        "year": "2004"
+      },
+      {
+        "geo": "EL",
+        "year": "2005"
+      },
+      {
+        "geo": "EL",
+        "year": "2006"
+      },
+      {
+        "geo": "EL",
+        "year": "2007"
+      },
+      {
+        "geo": "EL",
+        "year": "2008"
+      },
+      {
+        "geo": "EL",
+        "year": "2009"
+      },
+      {
+        "geo": "EL",
+        "year": "2010"
+      },
+      {
+        "geo": "EL",
+        "year": "2011"
+      },
+      {
+        "geo": "EL",
+        "year": "2012"
+      },
+      {
+        "geo": "EL",
+        "year": "2013"
+      },
+      {
+        "geo": "HU",
+        "year": "2000"
+      },
+      {
+        "geo": "HU",
+        "year": "2001"
+      },
+      {
+        "geo": "HU",
+        "year": "2002"
+      },
+      {
+        "geo": "HU",
+        "year": "2003"
+      },
+      {
+        "geo": "HU",
+        "year": "2004"
+      },
+      {
+        "geo": "HU",
+        "year": "2005"
+      },
+      {
+        "geo": "HU",
+        "year": "2006"
+      },
+      {
+        "geo": "HU",
+        "year": "2007"
+      },
+      {
+        "geo": "HU",
+        "year": "2008"
+      },
+      {
+        "geo": "HU",
+        "year": "2009"
+      },
+      {
+        "geo": "HU",
+        "year": "2010"
+      },
+      {
+        "geo": "HU",
+        "year": "2011"
+      },
+      {
+        "geo": "HU",
+        "year": "2012"
+      },
+      {
+        "geo": "HU",
+        "year": "2013"
+      },
+      {
+        "geo": "IE",
+        "year": "2000"
+      },
+      {
+        "geo": "IE",
+        "year": "2001"
+      },
+      {
+        "geo": "IE",
+        "year": "2002"
+      },
+      {
+        "geo": "IE",
+        "year": "2003"
+      },
+      {
+        "geo": "IE",
+        "year": "2004"
+      },
+      {
+        "geo": "IE",
+        "year": "2005"
+      },
+      {
+        "geo": "IE",
+        "year": "2006"
+      },
+      {
+        "geo": "IE",
+        "year": "2007"
+      },
+      {
+        "geo": "IE",
+        "year": "2008"
+      },
+      {
+        "geo": "IE",
+        "year": "2009"
+      },
+      {
+        "geo": "IE",
+        "year": "2010"
+      },
+      {
+        "geo": "IE",
+        "year": "2011"
+      },
+      {
+        "geo": "IE",
+        "year": "2012"
+      },
+      {
+        "geo": "IE",
+        "year": "2013"
+      },
+      {
+        "geo": "IT",
+        "year": "2000"
+      },
+      {
+        "geo": "IT",
+        "year": "2001"
+      },
+      {
+        "geo": "IT",
+        "year": "2002"
+      },
+      {
+        "geo": "IT",
+        "year": "2003"
+      },
+      {
+        "geo": "IT",
+        "year": "2004"
+      },
+      {
+        "geo": "IT",
+        "year": "2005"
+      },
+      {
+        "geo": "IT",
+        "year": "2006"
+      },
+      {
+        "geo": "IT",
+        "year": "2007"
+      },
+      {
+        "geo": "IT",
+        "year": "2008"
+      },
+      {
+        "geo": "IT",
+        "year": "2009"
+      },
+      {
+        "geo": "IT",
+        "year": "2010"
+      },
+      {
+        "geo": "IT",
+        "year": "2011"
+      },
+      {
+        "geo": "IT",
+        "year": "2012"
+      },
+      {
+        "geo": "IT",
+        "year": "2013"
+      },
+      {
+        "geo": "LV",
+        "year": "2000"
+      },
+      {
+        "geo": "LV",
+        "year": "2001"
+      },
+      {
+        "geo": "LV",
+        "year": "2002"
+      },
+      {
+        "geo": "LV",
+        "year": "2003"
+      },
+      {
+        "geo": "LV",
+        "year": "2004"
+      },
+      {
+        "geo": "LV",
+        "year": "2005"
+      },
+      {
+        "geo": "LV",
+        "year": "2006"
+      },
+      {
+        "geo": "LV",
+        "year": "2007"
+      },
+      {
+        "geo": "LV",
+        "year": "2008"
+      },
+      {
+        "geo": "LV",
+        "year": "2009"
+      },
+      {
+        "geo": "LV",
+        "year": "2010"
+      },
+      {
+        "geo": "LV",
+        "year": "2011"
+      },
+      {
+        "geo": "LV",
+        "year": "2012"
+      },
+      {
+        "geo": "LV",
+        "year": "2013"
+      },
+      {
+        "geo": "LT",
+        "year": "2000"
+      },
+      {
+        "geo": "LT",
+        "year": "2001"
+      },
+      {
+        "geo": "LT",
+        "year": "2002"
+      },
+      {
+        "geo": "LT",
+        "year": "2003"
+      },
+      {
+        "geo": "LT",
+        "year": "2004"
+      },
+      {
+        "geo": "LT",
+        "year": "2005"
+      },
+      {
+        "geo": "LT",
+        "year": "2006"
+      },
+      {
+        "geo": "LT",
+        "year": "2007"
+      },
+      {
+        "geo": "LT",
+        "year": "2008"
+      },
+      {
+        "geo": "LT",
+        "year": "2009"
+      },
+      {
+        "geo": "LT",
+        "year": "2010"
+      },
+      {
+        "geo": "LT",
+        "year": "2011"
+      },
+      {
+        "geo": "LT",
+        "year": "2012"
+      },
+      {
+        "geo": "LT",
+        "year": "2013"
+      },
+      {
+        "geo": "LU",
+        "year": "2000"
+      },
+      {
+        "geo": "LU",
+        "year": "2001"
+      },
+      {
+        "geo": "LU",
+        "year": "2002"
+      },
+      {
+        "geo": "LU",
+        "year": "2003"
+      },
+      {
+        "geo": "LU",
+        "year": "2004"
+      },
+      {
+        "geo": "LU",
+        "year": "2005"
+      },
+      {
+        "geo": "LU",
+        "year": "2006"
+      },
+      {
+        "geo": "LU",
+        "year": "2007"
+      },
+      {
+        "geo": "LU",
+        "year": "2008"
+      },
+      {
+        "geo": "LU",
+        "year": "2009"
+      },
+      {
+        "geo": "LU",
+        "year": "2010"
+      },
+      {
+        "geo": "LU",
+        "year": "2011"
+      },
+      {
+        "geo": "LU",
+        "year": "2012"
+      },
+      {
+        "geo": "LU",
+        "year": "2013"
+      },
+      {
+        "geo": "MT",
+        "year": "2000"
+      },
+      {
+        "geo": "MT",
+        "year": "2001"
+      },
+      {
+        "geo": "MT",
+        "year": "2002"
+      },
+      {
+        "geo": "MT",
+        "year": "2003"
+      },
+      {
+        "geo": "MT",
+        "year": "2004"
+      },
+      {
+        "geo": "MT",
+        "year": "2005"
+      },
+      {
+        "geo": "MT",
+        "year": "2006"
+      },
+      {
+        "geo": "MT",
+        "year": "2007"
+      },
+      {
+        "geo": "MT",
+        "year": "2008"
+      },
+      {
+        "geo": "MT",
+        "year": "2009"
+      },
+      {
+        "geo": "MT",
+        "year": "2010"
+      },
+      {
+        "geo": "MT",
+        "year": "2011"
+      },
+      {
+        "geo": "MT",
+        "year": "2012"
+      },
+      {
+        "geo": "MT",
+        "year": "2013"
+      },
+      {
+        "geo": "NL",
+        "year": "2000"
+      },
+      {
+        "geo": "NL",
+        "year": "2001"
+      },
+      {
+        "geo": "NL",
+        "year": "2002"
+      },
+      {
+        "geo": "NL",
+        "year": "2003"
+      },
+      {
+        "geo": "NL",
+        "year": "2004"
+      },
+      {
+        "geo": "NL",
+        "year": "2005"
+      },
+      {
+        "geo": "NL",
+        "year": "2006"
+      },
+      {
+        "geo": "NL",
+        "year": "2007"
+      },
+      {
+        "geo": "NL",
+        "year": "2008"
+      },
+      {
+        "geo": "NL",
+        "year": "2009"
+      },
+      {
+        "geo": "NL",
+        "year": "2010"
+      },
+      {
+        "geo": "NL",
+        "year": "2011"
+      },
+      {
+        "geo": "NL",
+        "year": "2012"
+      },
+      {
+        "geo": "NL",
+        "year": "2013"
+      },
+      {
+        "geo": "PL",
+        "year": "2000"
+      },
+      {
+        "geo": "PL",
+        "year": "2001"
+      },
+      {
+        "geo": "PL",
+        "year": "2002"
+      },
+      {
+        "geo": "PL",
+        "year": "2003"
+      },
+      {
+        "geo": "PL",
+        "year": "2004"
+      },
+      {
+        "geo": "PL",
+        "year": "2005"
+      },
+      {
+        "geo": "PL",
+        "year": "2006"
+      },
+      {
+        "geo": "PL",
+        "year": "2007"
+      },
+      {
+        "geo": "PL",
+        "year": "2008"
+      },
+      {
+        "geo": "PL",
+        "year": "2009"
+      },
+      {
+        "geo": "PL",
+        "year": "2010"
+      },
+      {
+        "geo": "PL",
+        "year": "2011"
+      },
+      {
+        "geo": "PL",
+        "year": "2012"
+      },
+      {
+        "geo": "PL",
+        "year": "2013"
+      },
+      {
+        "geo": "PT",
+        "year": "2000"
+      },
+      {
+        "geo": "PT",
+        "year": "2001"
+      },
+      {
+        "geo": "PT",
+        "year": "2002"
+      },
+      {
+        "geo": "PT",
+        "year": "2003"
+      },
+      {
+        "geo": "PT",
+        "year": "2004"
+      },
+      {
+        "geo": "PT",
+        "year": "2005"
+      },
+      {
+        "geo": "PT",
+        "year": "2006"
+      },
+      {
+        "geo": "PT",
+        "year": "2007"
+      },
+      {
+        "geo": "PT",
+        "year": "2008"
+      },
+      {
+        "geo": "PT",
+        "year": "2009"
+      },
+      {
+        "geo": "PT",
+        "year": "2010"
+      },
+      {
+        "geo": "PT",
+        "year": "2011"
+      },
+      {
+        "geo": "PT",
+        "year": "2012"
+      },
+      {
+        "geo": "PT",
+        "year": "2013"
+      },
+      {
+        "geo": "RO",
+        "year": "2000"
+      },
+      {
+        "geo": "RO",
+        "year": "2001"
+      },
+      {
+        "geo": "RO",
+        "year": "2002"
+      },
+      {
+        "geo": "RO",
+        "year": "2003"
+      },
+      {
+        "geo": "RO",
+        "year": "2004"
+      },
+      {
+        "geo": "RO",
+        "year": "2005"
+      },
+      {
+        "geo": "RO",
+        "year": "2006"
+      },
+      {
+        "geo": "RO",
+        "year": "2007"
+      },
+      {
+        "geo": "RO",
+        "year": "2008"
+      },
+      {
+        "geo": "RO",
+        "year": "2009"
+      },
+      {
+        "geo": "RO",
+        "year": "2010"
+      },
+      {
+        "geo": "RO",
+        "year": "2011"
+      },
+      {
+        "geo": "RO",
+        "year": "2012"
+      },
+      {
+        "geo": "RO",
+        "year": "2013"
+      },
+      {
+        "geo": "SK",
+        "year": "2000"
+      },
+      {
+        "geo": "SK",
+        "year": "2001"
+      },
+      {
+        "geo": "SK",
+        "year": "2002"
+      },
+      {
+        "geo": "SK",
+        "year": "2003"
+      },
+      {
+        "geo": "SK",
+        "year": "2004"
+      },
+      {
+        "geo": "SK",
+        "year": "2005"
+      },
+      {
+        "geo": "SK",
+        "year": "2006"
+      },
+      {
+        "geo": "SK",
+        "year": "2007"
+      },
+      {
+        "geo": "SK",
+        "year": "2008"
+      },
+      {
+        "geo": "SK",
+        "year": "2009"
+      },
+      {
+        "geo": "SK",
+        "year": "2010"
+      },
+      {
+        "geo": "SK",
+        "year": "2011"
+      },
+      {
+        "geo": "SK",
+        "year": "2012"
+      },
+      {
+        "geo": "SK",
+        "year": "2013"
+      },
+      {
+        "geo": "SI",
+        "year": "2000"
+      },
+      {
+        "geo": "SI",
+        "year": "2001"
+      },
+      {
+        "geo": "SI",
+        "year": "2002"
+      },
+      {
+        "geo": "SI",
+        "year": "2003"
+      },
+      {
+        "geo": "SI",
+        "year": "2004"
+      },
+      {
+        "geo": "SI",
+        "year": "2005"
+      },
+      {
+        "geo": "SI",
+        "year": "2006"
+      },
+      {
+        "geo": "SI",
+        "year": "2007"
+      },
+      {
+        "geo": "SI",
+        "year": "2008"
+      },
+      {
+        "geo": "SI",
+        "year": "2009"
+      },
+      {
+        "geo": "SI",
+        "year": "2010"
+      },
+      {
+        "geo": "SI",
+        "year": "2011"
+      },
+      {
+        "geo": "SI",
+        "year": "2012"
+      },
+      {
+        "geo": "SI",
+        "year": "2013"
+      },
+      {
+        "geo": "ES",
+        "year": "2000"
+      },
+      {
+        "geo": "ES",
+        "year": "2001"
+      },
+      {
+        "geo": "ES",
+        "year": "2002"
+      },
+      {
+        "geo": "ES",
+        "year": "2003"
+      },
+      {
+        "geo": "ES",
+        "year": "2004"
+      },
+      {
+        "geo": "ES",
+        "year": "2005"
+      },
+      {
+        "geo": "ES",
+        "year": "2006"
+      },
+      {
+        "geo": "ES",
+        "year": "2007"
+      },
+      {
+        "geo": "ES",
+        "year": "2008"
+      },
+      {
+        "geo": "ES",
+        "year": "2009"
+      },
+      {
+        "geo": "ES",
+        "year": "2010"
+      },
+      {
+        "geo": "ES",
+        "year": "2011"
+      },
+      {
+        "geo": "ES",
+        "year": "2012"
+      },
+      {
+        "geo": "ES",
+        "year": "2013"
+      },
+      {
+        "geo": "SE",
+        "year": "2000"
+      },
+      {
+        "geo": "SE",
+        "year": "2001"
+      },
+      {
+        "geo": "SE",
+        "year": "2002"
+      },
+      {
+        "geo": "SE",
+        "year": "2003"
+      },
+      {
+        "geo": "SE",
+        "year": "2004"
+      },
+      {
+        "geo": "SE",
+        "year": "2005"
+      },
+      {
+        "geo": "SE",
+        "year": "2006"
+      },
+      {
+        "geo": "SE",
+        "year": "2007"
+      },
+      {
+        "geo": "SE",
+        "year": "2008"
+      },
+      {
+        "geo": "SE",
+        "year": "2009"
+      },
+      {
+        "geo": "SE",
+        "year": "2010"
+      },
+      {
+        "geo": "SE",
+        "year": "2011"
+      },
+      {
+        "geo": "SE",
+        "year": "2012"
+      },
+      {
+        "geo": "SE",
+        "year": "2013"
+      }
+    ],
+    "years_not_returned": [
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "countries_not_returned": [],
+    "flag_counts": {
+      "p": 19
+    },
+    "flag_labels": {
+      "p": "provisional"
+    },
+    "flagged_observations": [
+      {
+        "geo": "BE",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "BG",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "HR",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "CY",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "FR",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "FR",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "HU",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "LU",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "PT",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "RO",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2025",
+        "status": "p"
+      }
+    ]
+  }
+}

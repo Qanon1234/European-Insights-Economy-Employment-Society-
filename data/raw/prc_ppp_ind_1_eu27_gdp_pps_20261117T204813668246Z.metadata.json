@@ -1,0 +1,184 @@
+{
+  "dataset_id": "prc_ppp_ind_1",
+  "dataset_title": "Purchasing power parities, price level indices, nominal and real expenditures by analytical categories - based on COICOP 2018",
+  "dataset_url": "https://ec.europa.eu/eurostat/databrowser/view/prc_ppp_ind_1/default/table?lang=en",
+  "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind_1?format=JSON&lang=EN&freq=A&indic_ppp=VI_PPS_EU27_2020_HAB&ppp_cat18=GDP&sinceTimePeriod=2000&untilTimePeriod=2025&geo=AT&geo=BE&geo=BG&geo=HR&geo=CY&geo=CZ&geo=DK&geo=EE&geo=FI&geo=FR&geo=DE&geo=EL&geo=HU&geo=IE&geo=IT&geo=LV&geo=LT&geo=LU&geo=MT&geo=NL&geo=PL&geo=PT&geo=RO&geo=SK&geo=SI&geo=ES&geo=SE",
+  "retrieved_at_utc": "2026-11-17T20:48:13.668246+00:00",
+  "eurostat_updated": "2026-07-09T23:00:00+0200",
+  "indicator": "VI_PPS_EU27_2020_HAB",
+  "category": "GDP",
+  "frequency": "A",
+  "indicator_label": "Volume indices of real expenditure per capita (in PPS_EU27_2020=100)",
+  "reference": "EU27_2020 = 100 in each year; not a currency amount",
+  "country_codes": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE"
+  ],
+  "requested_start_year": 2000,
+  "requested_end_year": 2025,
+  "returned_years": [
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "raw_file": "prc_ppp_ind_1_eu27_gdp_pps_20261117T204813668246Z.json",
+  "sha256": "6d80983052bed0936588f283fb0adf4e3e7e79095537080603d5b06fd60b42c3",
+  "quality_check": {
+    "expected_country_year_cells": 702,
+    "missing_count": 0,
+    "missing_observations": [],
+    "years_not_returned": [],
+    "countries_not_returned": [],
+    "flag_counts": {
+      "p": 19
+    },
+    "flag_labels": {
+      "p": "provisional"
+    },
+    "flagged_observations": [
+      {
+        "geo": "BE",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "BG",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "HR",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "CY",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "FR",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "FR",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "DE",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "EL",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "HU",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "LU",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "PT",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "RO",
+        "year": "2025",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2023",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2024",
+        "status": "p"
+      },
+      {
+        "geo": "ES",
+        "year": "2025",
+        "status": "p"
+      }
+    ]
+  }
+}
